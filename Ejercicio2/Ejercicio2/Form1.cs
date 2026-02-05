@@ -6,5 +6,16 @@ namespace Ejercicio2
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esto es una prueba", "Informacion", 
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
